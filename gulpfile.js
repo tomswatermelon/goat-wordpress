@@ -16,6 +16,11 @@ var livereload = require('gulp-livereload');
 var sass = require('gulp-sass');
 var concatCss = require('gulp-concat-css');
 var cleanCSS = require('gulp-clean-css');
+var jshint = require('gulp-jshint');
+var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
+
+
 gulp.task('sass', function () {
     gulp.src('css/src/*.scss')
         .pipe(plumber(plumberErrorHandler))
@@ -30,14 +35,10 @@ gulp.task('sass', function () {
 
 });
 
-var jshint = require('gulp-jshint');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
+
 gulp.task('js', function () {
 
     gulp.src('js/vendors/*.js')
-    .pipe(jshint())
-    .pipe(jshint.reporter('default'))
     .pipe(concat('vendors.js'))
     .pipe(uglify())
     .pipe(gulp.dest('js'));
