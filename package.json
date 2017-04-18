@@ -1,5 +1,5 @@
 {
-  "name": "shtemple",
+  "name": "goat-wordpress",
   "version": "1.0.0",
   "description": "Powerful shell for rapidly deploying your WordPress projects.",
   "main": "gulpfile.js",
