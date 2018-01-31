@@ -1,0 +1,104 @@
+//
+// main Display Font
+//
+@font-face {
+	font-family:'main';
+	src:url('../fonts/neosans/NeoSans.eot');
+	src:url('../fonts/neosans/NeoSans.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/neosans/NeoSans.woff') format('woff'),
+		url('../fonts/neosans/NeoSans.ttf') format('truetype'),
+		url('../fonts/neosans/NeoSans.svg#font-name') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+	font-family:'main';
+	src:url('../fonts/neosans/NeoSans-Italic.eot');
+	src:url('../fonts/neosans/NeoSans-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/neosans/NeoSans-Italic.woff') format('woff'),
+		url('../fonts/neosans/NeoSans-Italic.ttf') format('truetype'),
+		url('../fonts/neosans/NeoSans-Italic.svg#font-name') format('svg');
+    font-weight:normal;
+    font-style:italic;
+}
+@font-face {
+	font-family:'main';
+	src:url('../fonts/neosans/NeoSans-Light.eot');
+	src:url('../fonts/neosans/NeoSans-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/neosans/NeoSans-Light.woff') format('woff'),
+		url('../fonts/neosans/NeoSans-Light.ttf') format('truetype'),
+		url('../fonts/neosans/NeoSans-Light.svg#font-name') format('svg');
+    font-weight:300;
+    font-style:normal;
+}
+@font-face {
+	font-family:'main';
+	src:url('../fonts/neosans/NeoSans-LightItalic.eot');
+	src:url('../fonts/neosans/NeoSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/neosans/NeoSans-LightItalic.woff') format('woff'),
+		url('../fonts/neosans/NeoSans-LightItalic.ttf') format('truetype'),
+		url('../fonts/neosans/NeoSans-LightItalic.svg#font-name') format('svg');
+    font-weight:300;
+    font-style:italic;
+}
+@font-face {
+	font-family:'main';
+	src:url('../fonts/neosans/NeoSans-Medium.eot');
+	src:url('../fonts/neosans/NeoSans-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/neosans/NeoSans-Medium.woff') format('woff'),
+		url('../fonts/neosans/NeoSans-Medium.ttf') format('truetype'),
+		url('../fonts/neosans/NeoSans-Medium.svg#font-name') format('svg');
+    font-weight:500;
+    font-style:normal;
+}
+@font-face {
+	font-family:'main';
+	src:url('../fonts/neosans/NeoSans-MediumItalic.eot');
+	src:url('../fonts/neosans/NeoSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/neosans/NeoSans-MediumItalic.woff') format('woff'),
+		url('../fonts/neosans/NeoSans-MediumItalic.ttf') format('truetype'),
+		url('../fonts/neosans/NeoSans-MediumItalic.svg#font-name') format('svg');
+    font-weight:500;
+    font-style:italic;
+}
+@font-face {
+	font-family:'main';
+	src:url('../fonts/neosans/NeoSans-Bold.eot');
+	src:url('../fonts/neosans/NeoSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/neosans/NeoSans-Bold.woff') format('woff'),
+		url('../fonts/neosans/NeoSans-Bold.ttf') format('truetype'),
+		url('../fonts/neosans/NeoSans-Bold.svg#font-name') format('svg');
+    font-weight:600;
+    font-style:normal;
+}
+@font-face {
+	font-family:'main';
+	src:url('../fonts/neosans/NeoSans-BoldItalic.eot');
+	src:url('../fonts/neosans/NeoSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/neosans/NeoSans-BoldItalic.woff') format('woff'),
+		url('../fonts/neosans/NeoSans-BoldItalic.ttf') format('truetype'),
+		url('../fonts/neosans/NeoSans-BoldItalic.svg#font-name') format('svg');
+    font-weight:600;
+    font-style:italic;
+}
+@font-face {
+	font-family:'main';
+	src:url('../fonts/neosans/NeoSans-Black.eot');
+	src:url('../fonts/neosans/NeoSans-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/neosans/NeoSans-Black.woff') format('woff'),
+		url('../fonts/neosans/NeoSans-Black.ttf') format('truetype'),
+		url('../fonts/neosans/NeoSans-Black.svg#font-name') format('svg');
+    font-weight:700;
+    font-style:normal;
+}
+@font-face {
+	font-family:'main';
+	src:url('../fonts/neosans/NeoSans-BlackItalic.eot');
+	src:url('../fonts/neosans/NeoSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/neosans/NeoSans-BlackItalic.woff') format('woff'),
+		url('../fonts/neosans/NeoSans-BlackItalic.ttf') format('truetype'),
+		url('../fonts/neosans/NeoSans-BlackItalic.svg#font-name') format('svg');
+    font-weight:700;
+    font-style:italic;
+}
+

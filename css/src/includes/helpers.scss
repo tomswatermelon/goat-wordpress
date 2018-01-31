@@ -1,0 +1,22 @@
+.pull_right {
+
+    @include bp('min-width',768) {
+        float: right!important;
+    }
+
+}
+
+.pull_left {
+
+    @include bp('min-width',768) {
+        float: left!important;
+    }
+
+}
+
+.align_center {
+    text-align: center!important;
+}
+.align_right {
+    text-align: right!important;
+}
